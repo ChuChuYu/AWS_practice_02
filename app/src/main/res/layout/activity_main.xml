@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="500dp"
+        android:layout_height="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:color/darker_gray" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        app:srcCompat="@android:color/background_dark"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="100dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="3.1415926"
+        android:textColor="@android:color/background_light"
+        android:textSize="40sp"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="45dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:text="3+0.1415926"
+        tools:layout_editor_absoluteX="275dp"
+        tools:layout_editor_absoluteY="27dp" />
+
+    <ImageButton
+        android:id="@+id/button1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="10dp"
+        android:background="@android:color/background_dark"
+        android:scaleType="centerCrop"
+        android:src="@drawable/calculator_reset"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="100dp" />
+
+    <ImageButton
+        android:id="@+id/button2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="10dp"
+        android:background="@android:color/background_dark"
+        android:scaleType="centerCrop"
+        android:src="@drawable/calculator_changesign"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="100dp" />
+
+    <ImageButton
+        android:id="@+id/button3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="10dp"
+        android:background="@android:color/background_dark"
+        android:scaleType="centerCrop"
+        android:src="@drawable/calculator_percent"
+        tools:layout_editor_absoluteX="195dp"
+        tools:layout_editor_absoluteY="100dp" />
+
+    <ImageButton
+        android:id="@+id/button4"
+        android:layout_width="80"
+        android:layout_height="80"
+        android:layout_margin="10dp"
+        android:background="@android:color/background_dark"
+        android:scaleType="centerCrop"
+        android:src="@drawable/calculator_divide"
+        tools:layout_editor_absoluteX="288dp"
+        tools:layout_editor_absoluteY="100dp" />
+
+    <ImageButton
+        android:id="@+id/button5"
+        android:layout_width="80"
+        android:layout_height="80"
+        android:layout_margin="10dp"
+        android:background="@android:color/background_dark"
+        android:scaleType="centerCrop"
+        android:src="@drawable/calculator_7"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="180dp" />
+
+    <ImageButton
+        android:id="@+id/button6"
+        android:layout_width="80"
+        android:layout_height="80"
+        android:layout_margin="10dp"
+        android:background="@android:color/background_dark"
+        android:scaleType="centerCrop"
+        android:src="@drawable/calculator_8"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="180dp" />
+
+    <ImageButton
+        android:id="@+id/button7"
+        android:layout_width="80"
+        android:layout_height="80"
+        android:layout_margin="10dp"
+        android:background="@android:color/background_dark"
+        android:scaleType="centerCrop"
+        android:src="@drawable/calculator_9"
+        tools:layout_editor_absoluteX="195dp"
+        tools:layout_editor_absoluteY="180dp" />
+
+    <ImageButton
+        android:id="@+id/button8"
+        android:layout_width="80"
+        android:layout_height="80"
+        android:layout_margin="10dp"
+        android:background="@android:color/background_dark"
+        android:scaleType="centerCrop"
+        android:src="@drawable/calculator_times"
+        tools:layout_editor_absoluteX="288dp"
+        tools:layout_editor_absoluteY="180dp" />
+
+    <ImageButton
+        android:id="@+id/button9"
+        android:layout_width="80"
+        android:layout_height="80"
+        android:layout_margin="10dp"
+        android:background="@android:color/background_dark"
+        android:scaleType="centerCrop"
+        android:src="@drawable/calculator_4"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="260dp" />
+
+    <ImageButton
+        android:id="@+id/button10"
+        android:layout_width="80"
+        android:layout_height="80"
+        android:layout_margin="10dp"
+        android:background="@android:color/background_dark"
+        android:scaleType="centerCrop"
+        android:src="@drawable/calculator_5"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="260dp" />
+
+    <ImageButton
+        android:id="@+id/button11"
+        android:layout_width="80"
+        android:layout_height="80"
+        android:layout_margin="10dp"
+        android:background="@android:color/background_dark"
+        android:scaleType="centerCrop"
+        android:src="@drawable/calculator_6"
+        tools:layout_editor_absoluteX="195dp"
+        tools:layout_editor_absoluteY="260dp" />
+
+    <ImageButton
+        android:id="@+id/button12"
+        android:layout_width="80"
+        android:layout_height="80"
+        android:layout_margin="10dp"
+        android:background="@android:color/background_dark"
+        android:scaleType="centerCrop"
+        android:src="@drawable/calculator_minus"
+        tools:layout_editor_absoluteX="288dp"
+        tools:layout_editor_absoluteY="260dp" />
+
+    <ImageButton
+        android:id="@+id/button13"
+        android:layout_width="80"
+        android:layout_height="80"
+        android:layout_margin="10dp"
+        android:background="@android:color/background_dark"
+        android:scaleType="centerCrop"
+        android:src="@drawable/calculator_1"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="340dp" />
+
+    <ImageButton
+        android:id="@+id/button14"
+        android:layout_width="80"
+        android:layout_height="80"
+        android:layout_margin="10dp"
+        android:background="@android:color/background_dark"
+        android:scaleType="centerCrop"
+        android:src="@drawable/calculator_2"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="340dp" />
+
+    <ImageButton
+        android:id="@+id/button15"
+        android:layout_width="80"
+        android:layout_height="80"
+        android:layout_margin="10dp"
+        android:background="@android:color/background_dark"
+        android:scaleType="centerCrop"
+        android:src="@drawable/calculator_3"
+        tools:layout_editor_absoluteX="195dp"
+        tools:layout_editor_absoluteY="340dp" />
+
+    <ImageButton
+        android:id="@+id/button16"
+        android:layout_width="80"
+        android:layout_height="80"
+        android:layout_margin="10dp"
+        android:background="@android:color/background_dark"
+        android:scaleType="centerCrop"
+        android:src="@drawable/calculator_plus"
+        tools:layout_editor_absoluteX="288dp"
+        tools:layout_editor_absoluteY="340dp" />
+
+    <ImageButton
+        android:id="@+id/button17"
+        android:layout_width="80"
+        android:layout_height="80"
+        android:layout_margin="10dp"
+        android:background="@android:color/background_dark"
+        android:scaleType="centerCrop"
+        android:src="@drawable/calculator_0"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="420dp" />
+
+    <ImageButton
+        android:id="@+id/button18"
+        android:layout_width="80"
+        android:layout_height="80"
+        android:layout_margin="10dp"
+        android:background="@android:color/background_dark"
+        android:scaleType="centerCrop"
+        android:src="@drawable/calculator_point"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="420dp" />
+
+    <ImageButton
+        android:id="@+id/button19"
+        android:layout_width="160"
+        android:layout_height="80"
+        android:layout_margin="10dp"
+        android:background="@android:color/background_dark"
+        android:scaleType="centerCrop"
+        android:src="@drawable/calculator_equals"
+        tools:layout_editor_absoluteX="199dp"
+        tools:layout_editor_absoluteY="420dp" />
+</android.support.constraint.ConstraintLayout>
