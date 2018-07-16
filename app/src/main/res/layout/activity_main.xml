@@ -78,8 +78,8 @@
 
     <ImageButton
         android:id="@+id/button4"
-        android:layout_width="80"
-        android:layout_height="80"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:layout_margin="10dp"
         android:background="@android:color/background_dark"
         android:scaleType="centerCrop"
@@ -89,8 +89,8 @@
 
     <ImageButton
         android:id="@+id/button5"
-        android:layout_width="80"
-        android:layout_height="80"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:layout_margin="10dp"
         android:background="@android:color/background_dark"
         android:scaleType="centerCrop"
@@ -100,8 +100,8 @@
 
     <ImageButton
         android:id="@+id/button6"
-        android:layout_width="80"
-        android:layout_height="80"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:layout_margin="10dp"
         android:background="@android:color/background_dark"
         android:scaleType="centerCrop"
@@ -111,8 +111,8 @@
 
     <ImageButton
         android:id="@+id/button7"
-        android:layout_width="80"
-        android:layout_height="80"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:layout_margin="10dp"
         android:background="@android:color/background_dark"
         android:scaleType="centerCrop"
@@ -122,8 +122,8 @@
 
     <ImageButton
         android:id="@+id/button8"
-        android:layout_width="80"
-        android:layout_height="80"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:layout_margin="10dp"
         android:background="@android:color/background_dark"
         android:scaleType="centerCrop"
@@ -133,8 +133,8 @@
 
     <ImageButton
         android:id="@+id/button9"
-        android:layout_width="80"
-        android:layout_height="80"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:layout_margin="10dp"
         android:background="@android:color/background_dark"
         android:scaleType="centerCrop"
@@ -144,8 +144,8 @@
 
     <ImageButton
         android:id="@+id/button10"
-        android:layout_width="80"
-        android:layout_height="80"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:layout_margin="10dp"
         android:background="@android:color/background_dark"
         android:scaleType="centerCrop"
@@ -155,8 +155,8 @@
 
     <ImageButton
         android:id="@+id/button11"
-        android:layout_width="80"
-        android:layout_height="80"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:layout_margin="10dp"
         android:background="@android:color/background_dark"
         android:scaleType="centerCrop"
@@ -166,8 +166,8 @@
 
     <ImageButton
         android:id="@+id/button12"
-        android:layout_width="80"
-        android:layout_height="80"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:layout_margin="10dp"
         android:background="@android:color/background_dark"
         android:scaleType="centerCrop"
@@ -177,8 +177,8 @@
 
     <ImageButton
         android:id="@+id/button13"
-        android:layout_width="80"
-        android:layout_height="80"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:layout_margin="10dp"
         android:background="@android:color/background_dark"
         android:scaleType="centerCrop"
@@ -188,8 +188,8 @@
 
     <ImageButton
         android:id="@+id/button14"
-        android:layout_width="80"
-        android:layout_height="80"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:layout_margin="10dp"
         android:background="@android:color/background_dark"
         android:scaleType="centerCrop"
@@ -199,8 +199,8 @@
 
     <ImageButton
         android:id="@+id/button15"
-        android:layout_width="80"
-        android:layout_height="80"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:layout_margin="10dp"
         android:background="@android:color/background_dark"
         android:scaleType="centerCrop"
@@ -210,8 +210,8 @@
 
     <ImageButton
         android:id="@+id/button16"
-        android:layout_width="80"
-        android:layout_height="80"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:layout_margin="10dp"
         android:background="@android:color/background_dark"
         android:scaleType="centerCrop"
@@ -221,8 +221,8 @@
 
     <ImageButton
         android:id="@+id/button17"
-        android:layout_width="80"
-        android:layout_height="80"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:layout_margin="10dp"
         android:background="@android:color/background_dark"
         android:scaleType="centerCrop"
@@ -232,8 +232,8 @@
 
     <ImageButton
         android:id="@+id/button18"
-        android:layout_width="80"
-        android:layout_height="80"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:layout_margin="10dp"
         android:background="@android:color/background_dark"
         android:scaleType="centerCrop"
@@ -243,8 +243,8 @@
 
     <ImageButton
         android:id="@+id/button19"
-        android:layout_width="160"
-        android:layout_height="80"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
         android:layout_margin="10dp"
         android:background="@android:color/background_dark"
         android:scaleType="centerCrop"
